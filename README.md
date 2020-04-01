@@ -1,7 +1,7 @@
 # Google Books Search
 
 ## Preview
-<img src= "./client/public/images/preview1.png">
+<img src= "./client/public/images/preview2.png">
 
 
 
