@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { Col, Row, Container } from "../components/Grid";
 import { List, ListItem } from "../components/List";
 import { Input, TextArea, FormBtn } from "../components/Form";
+import Card from "../components/Card"
 
 function Books() {
   // Setting our component's initial state
@@ -56,15 +57,22 @@ function Books() {
 
     return (
       <Container fluid>
-
+        <Row>
+          <Col size="md-12">
             <Jumbotron>
               <h1 style={{fontFamily: "Futura Std"}}>Search for books and save them to your list </h1>
               <h5 style={{fontFamily: "Futura Std"}}>(React Book Search powered by Google Books API)</h5>
             </Jumbotron>
+          </Col>
+        <Col size="md-12">
 
-        <Row>
+        <Card />
 
-            <Col size="md-6">
+        </Col>
+
+          
+
+            {/* <Col size="md-12">
             <form>
               <Input
                 onChange={handleInputChange}
@@ -88,10 +96,10 @@ function Books() {
                 Submit Book
               </FormBtn>
             </form>
-          </Col>
+          </Col>  */}
 
 
-          <Col size="md-6 sm-12">
+          {/* <Col size="md-6 sm-12">
             {books.length ? (
               <List>
                 {books.map(book => (
@@ -108,7 +116,7 @@ function Books() {
             ) : (
               <h3>No Results to Display</h3>
             )}
-          </Col>
+          </Col> */}
 
 
         </Row>
