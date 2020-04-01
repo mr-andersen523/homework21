@@ -9,7 +9,7 @@ function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
 
-      <p className="navbar-brand" id="nav-title" href='/'>
+      <p className="navbar" id="nav-title" href='/'>
         <span style={{color:'royalblue'}}>G</span>
         <span style={{color:'tomato'}}>o</span>
         <span style={{color:'goldenrod'}}>o</span>

@@ -58,8 +58,8 @@ function Books() {
       <Container fluid>
 
             <Jumbotron>
-              <h1>Search for books and save them to your list </h1>
-              <h5>(React Book Search powered by Google API)</h5>
+              <h1 style={{fontFamily: "Futura Std"}}>Search for books and save them to your list </h1>
+              <h5 style={{fontFamily: "Futura Std"}}>(React Book Search powered by Google Books API)</h5>
             </Jumbotron>
 
         <Row>
