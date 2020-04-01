@@ -1,6 +1,7 @@
 # Google Books Search
 
-* [Preview](../homework21/client/public/images/preview1.png) 
+## Preview
+<img src= "./client/public/images/preview1.png">
 
 
 
