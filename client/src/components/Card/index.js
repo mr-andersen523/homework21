@@ -4,10 +4,9 @@ import SearchForm from "../SearchForm"
 
 function Card() {
     return (
-<div id="card" className="card mt-4 md-12">
-<div className="card-header">Header</div>
+<div id="card" className="card mt-4 md-12 text-center">
+<div className="card-header">Book Search</div>
 <div className="card-body">
-    <h4 id="card" className="card-title">Light card title</h4>
     <SearchForm />
 </div>
 </div>
