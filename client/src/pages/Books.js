@@ -56,11 +56,15 @@ function Books() {
 
     return (
       <Container fluid>
-        <Row>
-          <Col size="md-6">
+
             <Jumbotron>
-              <h1>What Books Should I Read?</h1>
+              <h1>Search for books and save them to your list </h1>
+              <h5>(React Book Search powered by Google API)</h5>
             </Jumbotron>
+
+        <Row>
+
+            <Col size="md-6">
             <form>
               <Input
                 onChange={handleInputChange}
@@ -85,10 +89,9 @@ function Books() {
               </FormBtn>
             </form>
           </Col>
+
+
           <Col size="md-6 sm-12">
-            <Jumbotron>
-              <h1>Books On My List</h1>
-            </Jumbotron>
             {books.length ? (
               <List>
                 {books.map(book => (
@@ -106,6 +109,8 @@ function Books() {
               <h3>No Results to Display</h3>
             )}
           </Col>
+
+
         </Row>
       </Container>
     );

@@ -1,0 +1,22 @@
+#nav-title {
+font-family: 'Futura Std'
+}
+
+#logo {
+    margin: 0 auto;
+}
+
+#logo-span {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color:#5a5a5a
+}
+
+#nav-a {
+float: left;
+margin-left: auto
+}
+
+#nav-icon {
+    margin-left: 100px;
+    margin-right: 20px;
+}
